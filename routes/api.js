@@ -14,7 +14,10 @@ router.get('/province_stats', function(req, res, next) {
   fs.readFile('./data/province_stats.json', (err, data) => {
     if (err) throw err;
     const jsonData = JSON.parse(data.toString())
-    res.json(jsonData)
+    const sortedArr = jsonData.sort((a, b) => {
+      return b.confirmedCount - a.confirmedCount
+    })
+    res.json(sortedArr)
   });
 });
 
