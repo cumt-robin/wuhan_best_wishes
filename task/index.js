@@ -19,6 +19,11 @@ function getData() {
     getTimelineData();
     getStatsData();
     getProvinceStatsData();
+    getOverseaStatsData();
+    getRumourData();
+    getWikiData();
+    getProtectWikiData();
+    getHelpLinks();
 }
 
 function getTimelineData() {
@@ -31,6 +36,26 @@ function getStatsData() {
 
 function getProvinceStatsData(){
     request.get(`${BASE_URL}/data/getListByCountryTypeService1`).pipe(fs.createWriteStream('./data/province_stats.json'))
+}
+
+function getOverseaStatsData() {
+    request.get(`${BASE_URL}/data/getListByCountryTypeService2`).pipe(fs.createWriteStream('./data/oversea_stats.json'))
+}
+
+function getRumourData() {
+    request.get(`${BASE_URL}/data/getIndexRumorList`).pipe(fs.createWriteStream('./data/rumour.json'))
+}
+
+function getWikiData() {
+    request.get(`${BASE_URL}/data/getWikiList`).pipe(fs.createWriteStream('./data/wiki.json'))
+}
+
+function getProtectWikiData() {
+    request.get(`${BASE_URL}/data/getIndexRecommendList`).pipe(fs.createWriteStream('./data/protect_wiki.json'))
+}
+
+function getHelpLinks() {
+    request.get(`${BASE_URL}/data/getEntries`).pipe(fs.createWriteStream('./data/help_links.json'))
 }
 
 module.exports = {
