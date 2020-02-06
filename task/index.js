@@ -1,7 +1,7 @@
 var request = require('request');
 var fs = require('fs');
+var { BASE_URL } = require('../config/index');
 
-const BASE_URL = 'http://49.232.173.220:3001'
 const interval = 1000 * 60 * 15; //15分钟抓一次
 
 function requestDataTask() {

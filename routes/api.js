@@ -1,5 +1,7 @@
 var express = require('express');
+var request = require('request');
 var fs = require('fs');
+var { BASE_URL } = require('../config/index');
 var router = express.Router();
 
 router.get('/timeline', function(req, res, next) {
@@ -24,6 +26,11 @@ router.get('/province_stats', function(req, res, next) {
     res.json(sortedArr)
   });
 });
+
+router.get('/city_stats/:areaName', function(req, res, next) {
+  request.get(encodeURI(`${BASE_URL}/data/getAreaStat/${req.params.areaName}`)).pipe(res)
+});
+
 
 router.get('/oversea_stats', function(req, res, next) {
   fs.readFile('./data/oversea_stats.json', (err, data) => {

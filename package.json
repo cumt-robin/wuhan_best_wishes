@@ -7,6 +7,7 @@
     "startpm2": "pm2 start ecosystem.config.js",
     "restart": "pm2 restart server",
     "stop": "pm2 stop server",
+    "kill": "pm2 kill",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {
