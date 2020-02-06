@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.2.1...v0.3.0) (2020-02-06)
+
+
+### Features
+
+* 支持其他查询，辟谣信息，知识百科，防护知识，便民入口，海外数据等 ([cfa33a0](https://github.com/cumt-robin/wuhan_best_wishes/commit/cfa33a0af06c03c7177eadedc6d5c781c3dcdb76))
+
+
+
 ## [0.2.1](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.2.0...v0.2.1) (2020-02-06)
 
 
