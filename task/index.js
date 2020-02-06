@@ -18,6 +18,7 @@ function dynamicRefreshData() {
 function getData() {
     getTimelineData();
     getStatsData();
+    getProvinceStatsData();
 }
 
 function getTimelineData() {
@@ -26,6 +27,10 @@ function getTimelineData() {
 
 function getStatsData() {
     request.get(`${BASE_URL}/data/getStatisticsService`).pipe(fs.createWriteStream('./data/stats.json'))
+}
+
+function getProvinceStatsData(){
+    request.get(`${BASE_URL}/data/getListByCountryTypeService1`).pipe(fs.createWriteStream('./data/province_stats.json'))
 }
 
 module.exports = {

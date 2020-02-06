@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.1.2...v0.2.0) (2020-02-06)
+
+
+### Features
+
+* 支持省份查询 ([b533832](https://github.com/cumt-robin/wuhan_best_wishes/commit/b533832b6aec64967c6d2fe6cacc270ac4be7840))
+
+
+
 ## [0.1.2](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.1.1...v0.1.2) (2020-02-06)
 
 
