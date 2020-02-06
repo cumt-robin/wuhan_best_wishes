@@ -1,5 +1,5 @@
 # Data
-assets/json
+data/*
 
 # Logs
 logs

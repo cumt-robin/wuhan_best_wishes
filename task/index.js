@@ -21,11 +21,11 @@ function getData() {
 }
 
 function getTimelineData() {
-    request.get(`${BASE_URL}/data/getTimelineService`).pipe(fs.createWriteStream('./assets/json/timeline.json'))
+    request.get(`${BASE_URL}/data/getTimelineService`).pipe(fs.createWriteStream('./data/timeline.json'))
 }
 
 function getStatsData() {
-    request.get(`${BASE_URL}/data/getStatisticsService`).pipe(fs.createWriteStream('./assets/json/stats.json'))
+    request.get(`${BASE_URL}/data/getStatisticsService`).pipe(fs.createWriteStream('./data/stats.json'))
 }
 
 module.exports = {
