@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.2.0...v0.2.1) (2020-02-06)
+
+
+### Bug Fixes
+
+* 省份按确诊数量倒序 ([3872f85](https://github.com/cumt-robin/wuhan_best_wishes/commit/3872f85d8c5e33791113a4a60fc45d1e970b57f1))
+
+
+
 # [0.2.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.1.2...v0.2.0) (2020-02-06)
 
 
