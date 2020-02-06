@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.3.0...v0.4.0) (2020-02-06)
+
+
+### Features
+
+* 支持根据省查询下面的市县疫情数据 ([8d35bfd](https://github.com/cumt-robin/wuhan_best_wishes/commit/8d35bfdaf755043759fa6ddd2b7eed9eaea7faf2))
+
+
+
 # [0.3.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.2.1...v0.3.0) (2020-02-06)
 
 

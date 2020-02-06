@@ -1,12 +1,13 @@
 {
   "name": "wuhan-best-wishes",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
     "startpm2": "pm2 start ecosystem.config.js",
     "restart": "pm2 restart server",
     "stop": "pm2 stop server",
+    "kill": "pm2 kill",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "dependencies": {

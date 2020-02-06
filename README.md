@@ -23,6 +23,7 @@
 | wiki           | GET      | 最新知识百科                 |
 | help_links     | GET      | 便民信息/诊疗信息            |
 | province_stats | GET      | 全国省份级患者分布数据       |
+| city_stats/:areaName | GET      | 根据省份查市县疫情数据，areaName传入省级行政区的简写，如“湖南”       |
 | oversea_stats  | GET      | 全球海外其他地区患者分布数据 |
 
 可以点击[整体统计数据](https://wuhan.wbjiang.cn/api/stats)试试看呢!
