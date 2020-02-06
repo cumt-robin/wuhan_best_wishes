@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.1.0...v0.1.1) (2020-02-06)
+
+
+### Bug Fixes
+
+* 数据目录导致的bug ([83d5ac6](https://github.com/cumt-robin/wuhan_best_wishes/commit/83d5ac6fce424e544629bc26a6d68b7a262b5a49))
+
+
+
 # [0.1.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.0.2...v0.1.0) (2020-02-06)
 
 
