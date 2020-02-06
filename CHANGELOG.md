@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.1.1...v0.1.2) (2020-02-06)
+
+
+### Bug Fixes
+
+* gitignore问题修改 ([728c4bd](https://github.com/cumt-robin/wuhan_best_wishes/commit/728c4bd89ed77e771dc933af3880f3fc061b1781))
+
+
+
 ## [0.1.1](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.1.0...v0.1.1) (2020-02-06)
 
 
