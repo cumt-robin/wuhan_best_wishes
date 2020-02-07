@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.5.0...v0.5.1) (2020-02-07)
+
+
+### Bug Fixes
+
+* timeline接口忘记返回total字段 ([282e6c7](https://github.com/cumt-robin/wuhan_best_wishes/commit/282e6c719d1d4e30a97b83fbb6a1c78e10ac7532))
+
+
+
 # [0.5.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.4.0...v0.5.0) (2020-02-07)
 
 
