@@ -29,3 +29,9 @@
 可以点击[整体统计数据](https://wuhan.wbjiang.cn/api/stats)试试看呢!
 
 > 其他能力待完善...
+
+# 支持的应用
+
+已为小程序[wuhan速报](https://github.com/cumt-robin/ncov_weapp)提供接口支持
+
+<img src="https://qncdn.wbjiang.cn/武汉速报小程序码.jpg" style="display:block;margin:0 auto;width=100px;">
