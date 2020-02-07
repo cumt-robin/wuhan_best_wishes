@@ -5,7 +5,17 @@ var { BASE_URL } = require('../config/index');
 var router = express.Router();
 
 router.get('/timeline', function(req, res, next) {
-  fs.createReadStream('./data/timeline.json', {encoding: 'utf8'}).pipe(res)
+  // fs.createReadStream('./data/timeline.json', {encoding: 'utf8'}).pipe(res) // 全部返回
+  fs.readFile('./data/timeline.json', (err, data) => {
+    if (err) throw err;
+    const jsonData = JSON.parse(data.toString())
+    const pageNo = req.query.pageNo ? Number(req.query.pageNo) : 1
+    const pageSize = req.query.pageSize ? Number(req.query.pageSize) : 10
+    const startIndex = (pageNo - 1) * pageSize
+    const endIndex = pageNo * pageSize
+    const sliceArr = jsonData.slice(startIndex, endIndex)
+    res.json(sliceArr)
+  });
 });
 
 router.get('/stats', function(req, res, next) {
