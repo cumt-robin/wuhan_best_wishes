@@ -2,7 +2,7 @@ var request = require('request');
 var fs = require('fs');
 var { BASE_URL } = require('../config/index');
 
-const interval = 1000 * 60 * 15; //15分钟抓一次
+const interval = 1000 * 60 * 15; // 15分钟抓一次数据
 
 function requestDataTask() {
     getData();

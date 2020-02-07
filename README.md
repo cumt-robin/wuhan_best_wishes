@@ -16,7 +16,7 @@
 
 | 接口名         | 请求方式 | 接口描述                     |
 | -------------- | -------- | ---------------------------- |
-| timeline       | GET      | 按时间线获取事件             |
+| timeline       | GET      | 获取发生的事件，支持分页参数pageNo和pageSize             |
 | stats          | GET      | 整体统计数据                 |
 | rumour         | GET      | 最新辟谣                     |
 | protect_wiki   | GET      | 最新防护知识                 |
