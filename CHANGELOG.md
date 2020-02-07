@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.4.0...v0.5.0) (2020-02-07)
+
+
+### Features
+
+* 查询发生事件时支持分页参数 ([55139f9](https://github.com/cumt-robin/wuhan_best_wishes/commit/55139f9ccd8377ada667a708ebcf4b37599163ae))
+
+
+
 # [0.4.0](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.3.0...v0.4.0) (2020-02-06)
 
 
