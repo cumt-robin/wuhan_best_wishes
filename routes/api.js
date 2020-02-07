@@ -14,7 +14,10 @@ router.get('/timeline', function(req, res, next) {
     const startIndex = (pageNo - 1) * pageSize
     const endIndex = pageNo * pageSize
     const sliceArr = jsonData.slice(startIndex, endIndex)
-    res.json(sliceArr)
+    res.json({
+      list: sliceArr,
+      total: jsonData.length
+    })
   });
 });
 
