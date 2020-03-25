@@ -39,7 +39,7 @@ function getProvinceStatsData(){
 }
 
 function getOverseaStatsData() {
-    request.get(`${BASE_URL}/data/getListByCountryTypeService2`).pipe(fs.createWriteStream('./data/oversea_stats.json'))
+    request.get(`${BASE_URL}/data/getListByCountryTypeService2true`).pipe(fs.createWriteStream('./data/oversea_stats.json'))
 }
 
 function getRumourData() {
