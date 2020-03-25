@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.5.1...v0.5.2) (2020-03-25)
+
+
+### Bug Fixes
+
+* 海外数据接口修改 ([5586c5d](https://github.com/cumt-robin/wuhan_best_wishes/commit/5586c5df543fbc61b8151891c2d30d3f2bb19fbd)), closes [#16](https://github.com/cumt-robin/wuhan_best_wishes/issues/16)
+
+
+
 ## [0.5.1](https://github.com/cumt-robin/wuhan_best_wishes/compare/v0.5.0...v0.5.1) (2020-02-07)
 
 
